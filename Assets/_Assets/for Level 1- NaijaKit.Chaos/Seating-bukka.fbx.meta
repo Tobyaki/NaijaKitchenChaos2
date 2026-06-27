@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e76b69e00270ac94085f141bb97629e7
+guid: 0a4f35aacbd291b4faa712ff9d444bde
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
@@ -7,68 +7,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Kitchen Counter
-    second: {fileID: 2100000, guid: bf4c68474471a9145a719a331275afe9, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Kitchen Counter.001
-    second: {fileID: 2100000, guid: d7c070555804dcf429c1e3112f304dfc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Kitchen Counter.002
-    second: {fileID: 2100000, guid: e358711ab556f0148b921fcdc2ef143a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Kitchen Counter.003
-    second: {fileID: 2100000, guid: b2af92c64913e8d48971b6a9bd9fe5ae, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.Floor Terain
-    second: {fileID: 2100000, guid: 484d236200cac9b49913b355f4e02596, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: Scene_-_Root
-    second: {fileID: 2100000, guid: a556e388b43c2b4409198f383c9d8858, type: 2}
+    second: {fileID: 2100000, guid: c3cee67b50ad2ca46845d9240be742c8, type: 2}
   - first:
-      type: UnityEngine:Material
+      type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: Stove
-    second: {fileID: 2100000, guid: e9fc723b0bcb8044783a9590b6eeea61, type: 2}
+      name: Scene_-_Root_baseColor
+    second: {fileID: 2800000, guid: cb084ce37c721da4aa172d50e870f700, type: 3}
   - first:
-      type: UnityEngine:Material
+      type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: Trash bin
-    second: {fileID: 2100000, guid: 29e81a9af9189774d874afb60d13fa51, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Umbrella overhang
-    second: {fileID: 2100000, guid: cbd8d93e96402e24ba739b56c801b40b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: be23626fdfb1e91458aaa8648b586b2c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert1.001
-    second: {fileID: 2100000, guid: 7b7e62469adbddf4a929883715ba3316, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert1.002
-    second: {fileID: 2100000, guid: ae8af8e7fc66c1e43b8c71715c17f74f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: wo-a
-    second: {fileID: 2100000, guid: 5d58086676b73844b987157c680308fe, type: 2}
+      name: Scene_-_Root_normal
+    second: {fileID: 2800000, guid: 0b792e0b200045d429ed62c0798acf54, type: 3}
   materials:
     materialImportMode: 1
     materialName: 0
