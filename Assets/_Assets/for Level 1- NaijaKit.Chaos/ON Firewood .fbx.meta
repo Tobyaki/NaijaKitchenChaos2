@@ -3,7 +3,17 @@ guid: 4d2a13f58825baa4fb55531c95ab3439
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 43a174acb1664a14a98aed2ce1a7ee0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: camping_pot_1
+    second: {fileID: 2100000, guid: 16f2f3519b92fc54b946ca500f0f7c58, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
