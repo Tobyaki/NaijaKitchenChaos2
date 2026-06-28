@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4d2a13f58825baa4fb55531c95ab3439
+guid: 95cc5d3c43e7d90438f20107d49abce7
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
@@ -7,13 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: No Name
-    second: {fileID: 2100000, guid: 43a174acb1664a14a98aed2ce1a7ee0a, type: 2}
+      name: Mat UMBRELLA
+    second: {fileID: 2100000, guid: 1f7197c9cccf8a446b4e939685f68418, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: camping_pot_1
-    second: {fileID: 2100000, guid: 16f2f3519b92fc54b946ca500f0f7c58, type: 2}
+      name: Mat UMBRELLA.001
+    second: {fileID: 2100000, guid: 88d9df08ef721d14fabc9358f3d5aa60, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

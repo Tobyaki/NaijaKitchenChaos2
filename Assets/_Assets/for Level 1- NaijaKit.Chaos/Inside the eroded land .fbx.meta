@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4d2a13f58825baa4fb55531c95ab3439
+guid: 9e848b30a58505a4dabf24c07189dfc3
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
@@ -7,13 +7,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: No Name
-    second: {fileID: 2100000, guid: 43a174acb1664a14a98aed2ce1a7ee0a, type: 2}
+      name: FROG
+    second: {fileID: 2100000, guid: 0449d5fdab37ae4418d1cbf7960d8060, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: camping_pot_1
-    second: {fileID: 2100000, guid: 16f2f3519b92fc54b946ca500f0f7c58, type: 2}
+      name: LILLY
+    second: {fileID: 2100000, guid: 028ccb5f4a92ae044ab80a2635ab6f08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fly
+    second: {fileID: 2100000, guid: f1d1cef8b6a5bec46b88c4a7554d122f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grass
+    second: {fileID: 2100000, guid: 7842342b9144a644cab608686fd3fcc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: typhamain
+    second: {fileID: 2100000, guid: 413d499c20e395c41852ce6b3f6f129d, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
