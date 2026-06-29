@@ -742,7 +742,7 @@ RectTransform:
   - {fileID: 567743213}
   - {fileID: 1256616917}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1099,7 +1099,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playButton: {fileID: 1574343778}
-  quitButton: {fileID: 0}
+  quitButton: {fileID: 66651870}
 --- !u!1 &1281891353
 GameObject:
   m_ObjectHideFlags: 0
