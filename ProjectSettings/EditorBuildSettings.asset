@@ -8,15 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenuScene.unity
     guid: 4c2d759a86a464f4b9c74d678d4581ec
-  - enabled: 0
-    path: Assets/Scenes/Toby_Scene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
   - enabled: 1
     path: Assets/Scenes/GameScene.unity
     guid: 8a55daec63a9f314cb7736a678250b03
-  - enabled: 0
-    path: Assets/Scenes/Nduche_Scene.unity
-    guid: dac90476f91e73b4689dfae307891c6d
   - enabled: 1
     path: Assets/Scenes/LoadingScene.unity
     guid: 67e839ffb4bba8e46b0f3def7db724fe

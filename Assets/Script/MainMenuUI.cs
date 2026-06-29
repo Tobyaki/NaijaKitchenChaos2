@@ -11,11 +11,13 @@ public class MainMenuUI : MonoBehaviour
     {
         playButton.onClick.AddListener(() =>
         {
-            Loader.Load(Loader.Scene.GameScene);
+           Loader.Load(Loader.Scene.GameScene);
+           Debug.Log("Played");
         });
-        quitButton.onClick.AddListener(() =>
-        {
+       quitButton.onClick.AddListener(() =>
+       {
             Application.Quit();
-        });
+            Debug.Log("Quit");
+       });
     }
 }
