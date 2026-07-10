@@ -14,10 +14,13 @@ public class MainMenuUI : MonoBehaviour
            Loader.Load(Loader.Scene.GameScene);
            Debug.Log("Played");
         });
+
        quitButton.onClick.AddListener(() =>
        {
             Application.Quit();
             Debug.Log("Quit");
        });
+
+        Time.timeScale = 1f;
     }
 }
