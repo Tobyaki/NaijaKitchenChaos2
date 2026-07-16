@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     public event EventHandler<OnSelectedCounterChangedEventArgs> OnSelectedCounterChanged;
     public class OnSelectedCounterChangedEventArgs : EventArgs
     {
-        public BaseCounter selectedCounter;
+        public ClearCounter selectedCounter;
     }
 
     [SerializeField] private float moveSpeed = 7f;
@@ -19,8 +19,7 @@ public class Player : MonoBehaviour
     [SerializeField] private LayerMask countersLayerMask;
 
     private Vector3 lastInteractDir;
-    private BaseCounter selectedCounter;
-    private KitchenObject kitchenObject;
+    private ClearCounter selectedCounter;
 
     private void Awake()
     {
@@ -82,12 +81,12 @@ public class Player : MonoBehaviour
             
 
                                      
-            if (raycastHit.transform.TryGetComponent(out BaseCounter basecounter))
+            if (raycastHit.transform.TryGetComponent(out ClearCounter clearCounter))
             {
                 //Has ClearCounter
-                if (basecounter != selectedCounter)
+                if (clearCounter != selectedCounter)
                 {
-                    SetSelectedCounter(basecounter);
+                    SetSelectedCounter(clearCounter);
                 }
 
             }
@@ -128,7 +127,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void SetSelectedCounter(BaseCounter selectedCounter)
+    private void SetSelectedCounter(ClearCounter selectedCounter)
     {
         this.selectedCounter = selectedCounter;
 

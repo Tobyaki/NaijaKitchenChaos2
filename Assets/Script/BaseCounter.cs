@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class BaseCounter : MonoBehaviour
 {
-    public virtual void Interact(Player player)
-    {
-        Debug.Log("BaseCounter.Interact()");
-    }
     //public static event EventHandler OnAnyObjectPlacedHere;
 
     public static void ResetStaticData()
