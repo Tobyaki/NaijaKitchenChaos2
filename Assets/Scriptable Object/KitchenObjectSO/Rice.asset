@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc36c04350ee4c04a9541511f08c58a1, type: 3}
+  m_Name: Rice
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 3139645125818287162, guid: 235ee921b5c30574fb8d88d36b762953, type: 3}
+  sprite: {fileID: 21300000, guid: 092dcbfa960cc8b4a9809c329f17c89b, type: 3}
+  objectName: Rice
