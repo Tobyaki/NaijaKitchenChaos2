@@ -2,12 +2,38 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BaseCounter : MonoBehaviour
+public class BaseCounter : MonoBehaviour, IKitchenObjectParent
 {
-    //public static event EventHandler OnAnyObjectPlacedHere;
+    [SerializeField] private Transform counterTopPoint;
 
-    public static void ResetStaticData()
+    private KitchenObject kitchenObject;
+
+    public virtual void Interact(Player player)
     {
-        //OnAnyObjectPlacedHere = null;
+        Debug.LogError("BaseCounter.Interact();");
+    }
+
+    public Transform GetKitchenObjectFollowTransform()
+    {
+        return counterTopPoint;
+    }
+    public void SetkitchenObject(KitchenObject kitchenObject)
+    {
+        this.kitchenObject = kitchenObject;
+    }
+
+    public KitchenObject GetKitchenObject()
+    {
+        return kitchenObject;
+    }
+
+    public void ClearKitchenObject()
+    {
+        kitchenObject = null;
+    }
+
+    public bool HasKitchenObject()
+    {
+        return kitchenObject != null;
     }
 }
