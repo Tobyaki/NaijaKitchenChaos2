@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "com.gameanalytics.sdk": "8.0.1",
+    "com.google.external-dependency-manager": "1.2.188",
     "com.unity.cinemachine": "2.10.3",
     "com.unity.collab-proxy": "1.14.18",
     "com.unity.ide.rider": "1.2.1",
@@ -44,5 +46,15 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.gameanalytics",
+        "com.google"
+      ]
+    }
+  ]
 }
