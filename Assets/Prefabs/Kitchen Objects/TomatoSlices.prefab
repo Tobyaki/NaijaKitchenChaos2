@@ -28,7 +28,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 616907615696014}
+  - {fileID: 4911548679588218227}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -44,8 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3a00e7b35c90454cb52d78f643a83c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kitchenObjectSO: {fileID: 11400000, guid: b950fc8d4432b734fa5e67d219e004c6, type: 2}
---- !u!1001 &3812365365903778318
+  kitchenObjectSO: {fileID: 11400000, guid: 2525257b39790e7458665167d4ccd439, type: 2}
+--- !u!1001 &8125439906456376307
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -114,9 +114,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb403d1efda6baf4190c507841617408, type: 3}
---- !u!4 &616907615696014 stripped
+--- !u!4 &4911548679588218227 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3812876574508226176, guid: fb403d1efda6baf4190c507841617408,
     type: 3}
-  m_PrefabInstance: {fileID: 3812365365903778318}
+  m_PrefabInstance: {fileID: 8125439906456376307}
   m_PrefabAsset: {fileID: 0}
