@@ -27,7 +27,7 @@ MonoBehaviour:
     - com.gameanalytics
     - com.google
     m_IsDefault: 0
-  m_UserSelectedRegistryName: package.openupm.com
+  m_UserSelectedRegistryName: 
   m_UserAddingNewScopedRegistry: 0
   m_RegistryInfoDraft:
     m_ErrorMessage: 
