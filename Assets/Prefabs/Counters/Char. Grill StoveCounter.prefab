@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d13d3359d257a54dbfd427346655ff9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  counterTopPoint: {fileID: 0}
+  counterTopPoint: {fileID: 1462132960118954349}
+  grillingRecipeSOArray:
+  - {fileID: 11400000, guid: 2868f902694c12f44852a3c20585fe61, type: 2}
 --- !u!114 &7124410897536565215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25,7 +27,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1c5fc64e68516f429f7297fba14e91e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseCounter: {fileID: 0}
+  baseCounter: {fileID: 1796269260576093278}
   visualGameObjectArray:
   - {fileID: 2792719924500189905}
   - {fileID: 4416783721879568628}
@@ -50,7 +52,7 @@ PrefabInstance:
     - target: {fileID: 2104209501515229390, guid: a005f4523d735dc4a9abc9095982adb2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.456
+      value: 1.41
       objectReference: {fileID: 0}
     - target: {fileID: 2104209501515229390, guid: a005f4523d735dc4a9abc9095982adb2,
         type: 3}
@@ -128,6 +130,12 @@ GameObject:
 --- !u!4 &6336792526329567347 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6812224882905950672, guid: a005f4523d735dc4a9abc9095982adb2,
+    type: 3}
+  m_PrefabInstance: {fileID: 682626617202635171}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1462132960118954349 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2104209501515229390, guid: a005f4523d735dc4a9abc9095982adb2,
     type: 3}
   m_PrefabInstance: {fileID: 682626617202635171}
   m_PrefabAsset: {fileID: 0}

@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem.LowLevel;
+using UnityEngine.InputSystem.LowLevel; 
 
 public class CuttingCounter : BaseCounter
 {
@@ -34,10 +34,7 @@ public class CuttingCounter : BaseCounter
             }
         }
     }
-    new public static void ResetStaticData()
-    {
-        //OnAnyCut = null?
-    }
+   
 
     public override void InteractAlternate(Player player)
     {
