@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour,IKitchenObjectParent
+public class Player : MonoBehaviour, IKitchenObjectParent
 {
     public static Player Instance { get; private set; }
 
@@ -185,6 +185,11 @@ public class Player : MonoBehaviour,IKitchenObjectParent
     public bool HasKitchenObject()
     {
         return kitchenObject != null;
+    }
+
+    public void Interact(Player player)
+    {
+        ((IKitchenObjectParent)selectedCounter).Interact(player);
     }
 }
 
