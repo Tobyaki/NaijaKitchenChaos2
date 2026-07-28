@@ -12,4 +12,5 @@ public interface IKitchenObjectParent
     void ClearKitchenObject();
 
     bool HasKitchenObject();
+    void Interact(Player player);
 }
