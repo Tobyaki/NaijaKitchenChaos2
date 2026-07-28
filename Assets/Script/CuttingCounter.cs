@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem.LowLevel;
+using UnityEngine.InputSystem.LowLevel; 
 
 public class CuttingCounter : BaseCounter
 {
