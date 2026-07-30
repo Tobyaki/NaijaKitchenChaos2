@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c8a2a37c6f379ee42824fe313c8cdc8a, type: 3}
-  m_Name: SUYA_Belle full
+  m_Name: BelleFullSUYA
   m_EditorClassIdentifier: 
   kitchenObjectSOList:
   - {fileID: 11400000, guid: 893a66d211338aa47959845283927979, type: 2}
   - {fileID: 11400000, guid: 5017f1c40f3b56942b6f5a901e5db3be, type: 2}
+  - {fileID: 11400000, guid: 2525257b39790e7458665167d4ccd439, type: 2}
+  - {fileID: 11400000, guid: 893a66d211338aa47959845283927979, type: 2}
   recipeName: SUYA
