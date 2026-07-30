@@ -9,9 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc36c04350ee4c04a9541511f08c58a1, type: 3}
-  m_Name: New Kitchen Object SO
+  m_Script: {fileID: 11500000, guid: c8a2a37c6f379ee42824fe313c8cdc8a, type: 3}
+  m_Name: SUYA_Belle full
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
-  sprite: {fileID: 0}
-  objectName: 
+  kitchenObjectSOList:
+  - {fileID: 11400000, guid: 893a66d211338aa47959845283927979, type: 2}
+  - {fileID: 11400000, guid: 5017f1c40f3b56942b6f5a901e5db3be, type: 2}
+  recipeName: SUYA
