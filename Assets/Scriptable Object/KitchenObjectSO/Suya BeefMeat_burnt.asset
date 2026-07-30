@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Suya BeefMeat_burnt
   m_EditorClassIdentifier: 
   prefab: {fileID: 3139645125818287162, guid: 16a1e6c369bc7a644a8ab68a2d8596d5, type: 3}
-  sprite: {fileID: 21300000, guid: 651726a584194c2428080c8d0ae3fd93, type: 3}
+  sprite: {fileID: 21300000, guid: e535a7baaf7dd8b41b7c36a8c4aa8510, type: 3}
   objectName: burnt_Suya Beef meat
