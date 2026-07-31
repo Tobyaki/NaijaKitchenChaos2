@@ -30,7 +30,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stoveCounter: {fileID: 1796269260576093278}
-  stoveOnGameObject: {fileID: 2581179489820939807}
+  stoveOnGameObject: {fileID: 2044221144762678226}
   particlesGameObject: {fileID: 6057902150431878235}
 --- !u!114 &7124410897536565215
 MonoBehaviour:
@@ -293,6 +293,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2045692054782112437}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2044221144762678226 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 17251720544094567, guid: 62df68c8702ef9b47979e9d914070594,
+    type: 3}
+  m_PrefabInstance: {fileID: 2045692054782112437}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4744597290549032433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -424,6 +430,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6336792526329567347}
     m_Modifications:
+    - target: {fileID: 17251720544094567, guid: 62df68c8702ef9b47979e9d914070594,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 904718287312461844, guid: 62df68c8702ef9b47979e9d914070594,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -510,6 +521,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
     - target: {fileID: 5054734146675638199, guid: 62df68c8702ef9b47979e9d914070594,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5220305274835918574, guid: 62df68c8702ef9b47979e9d914070594,
         type: 3}
       propertyPath: m_IsActive
       value: 0

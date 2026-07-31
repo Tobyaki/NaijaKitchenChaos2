@@ -888,6 +888,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7961602452330965337, guid: 1caf6dad053c06d4294e151bb655a256,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 43fbe75b8d297e248b15b8c46a2c5346,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1caf6dad053c06d4294e151bb655a256, type: 3}
 --- !u!4 &111884970 stripped
@@ -1218,9 +1224,26 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
         type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
       propertyPath: cuttingRecipeSOArray.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 2954aee826a64e24bba0de22696c5b8b,
+      objectReference: {fileID: 11400000, guid: 98da2f35de4549a44813dea89cc609cb,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: c5be3b047287ad6418bbe2aeeb587ece,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
         type: 2}
     - target: {fileID: 4492591080880250320, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
         type: 3}
@@ -1296,6 +1319,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CuttingCounter (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070996070372875470, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070996070372875470, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81ac0b4f6ca0c97478a10c9de91ecd59, type: 3}
@@ -2103,6 +2136,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2035210956911437831, guid: ce60fe0db155a394eb8e074383a81a8a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2491473045470800053, guid: ce60fe0db155a394eb8e074383a81a8a,
         type: 3}
@@ -7118,6 +7156,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7961602452330965337, guid: 1caf6dad053c06d4294e151bb655a256,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 43fbe75b8d297e248b15b8c46a2c5346,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1caf6dad053c06d4294e151bb655a256, type: 3}
 --- !u!1001 &1116266612
@@ -8356,6 +8400,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7749124201594887285, guid: cdf2a3042c8724946936b93c5ffb4ed8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7749124201594887285, guid: cdf2a3042c8724946936b93c5ffb4ed8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.77
       objectReference: {fileID: 0}
     - target: {fileID: 7961602452330965337, guid: cdf2a3042c8724946936b93c5ffb4ed8,
         type: 3}
@@ -10817,7 +10871,7 @@ PrefabInstance:
         type: 3}
       propertyPath: kitchenObjectSO
       value: 
-      objectReference: {fileID: 11400000, guid: e8801f0b3c4c9204cba728a1f04cbcc6,
+      objectReference: {fileID: 11400000, guid: 43fbe75b8d297e248b15b8c46a2c5346,
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdf2a3042c8724946936b93c5ffb4ed8, type: 3}
@@ -11402,9 +11456,194 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
         type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
       propertyPath: cuttingRecipeSOArray.Array.data[0]
       value: 
       objectReference: {fileID: 11400000, guid: 98da2f35de4549a44813dea89cc609cb,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: c5be3b047287ad6418bbe2aeeb587ece,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[7]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[8]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[9]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[10]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[11]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[12]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[13]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[14]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[15]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[16]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[17]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[18]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[19]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[20]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[21]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[22]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[23]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[24]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[25]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[26]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[27]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[28]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[29]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[30]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
+        type: 2}
+    - target: {fileID: 1073581711346984668, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[31]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ca48947f487b4c47b784d59842d4b7b,
         type: 2}
     - target: {fileID: 4492591080880250320, guid: 81ac0b4f6ca0c97478a10c9de91ecd59,
         type: 3}
@@ -14989,13 +15228,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1924745944393511228}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0.46023, y: -0.00000023842, z: -0.000000059605}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0.46023, y: -0.00000023842, z: 0.24}
   m_LocalScale: {x: 126.25001, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 543450651997998444}
   m_RootOrder: 20
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!4 &3924204235505027527
 Transform:
   m_ObjectHideFlags: 0
