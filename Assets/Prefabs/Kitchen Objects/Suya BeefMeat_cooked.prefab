@@ -112,6 +112,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: SUYAmeat_cooked
       objectReference: {fileID: 0}
+    - target: {fileID: 5325659180131463053, guid: 83412d9cd1649304686bb8505afe839f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5325659180131463053, guid: 83412d9cd1649304686bb8505afe839f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 5325659180131463053, guid: 83412d9cd1649304686bb8505afe839f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5325659180131463053, guid: 83412d9cd1649304686bb8505afe839f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5325659180131463053, guid: 83412d9cd1649304686bb8505afe839f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5325659180131463053, guid: 83412d9cd1649304686bb8505afe839f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83412d9cd1649304686bb8505afe839f, type: 3}
 --- !u!4 &4741061850475188942 stripped
