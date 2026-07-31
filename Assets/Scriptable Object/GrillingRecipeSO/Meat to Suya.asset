@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ddbec9614f6eb148907919795c8f901, type: 3}
   m_Name: Meat to Suya
   m_EditorClassIdentifier: 
-  input: {fileID: 0}
-  output: {fileID: 0}
-  grillingTimerMax: 0
+  input: {fileID: 11400000, guid: cae7ffe489681aa47b56a4baa25f931b, type: 2}
+  output: {fileID: 11400000, guid: 893a66d211338aa47959845283927979, type: 2}
+  grillingTimerMax: 5

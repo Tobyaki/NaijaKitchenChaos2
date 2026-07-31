@@ -2,23 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class ProgressBarUI : MonoBehaviour
 {
-    [SerializeField] private CuttingCounter cuttingCounter;
+    [SerializeField] private IHasProgress hasProgress;
     [SerializeField] private Image barImage;
 
 
     private void Start()
     {
-        cuttingCounter.OnProgressChanged += CuttingCounter_OnProgressChanged;
+        hasProgress.OnProgressChanged += HasProgress_OnProgressChanged;
 
         barImage.fillAmount = 0f;
 
         Hide();
     }
 
-    private void CuttingCounter_OnProgressChanged(object sender, CuttingCounter.OnProgressChangedEventArgs e)
+    private void HasProgress_OnProgressChanged(object sender, OnProgressChangedEventArgs e)
     {
         barImage.fillAmount = e.progressNormalized;
 

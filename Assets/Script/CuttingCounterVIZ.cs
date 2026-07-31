@@ -6,7 +6,7 @@ public class CuttingCounterVIZ : MonoBehaviour
 {
     private const string CUT = "Cut";
 
-    [SerializeField] private CuttingCounter cuttingCounter;
+    [SerializeField] private IHasProgress cuttingCounter;
 
     private Animator animator;
 

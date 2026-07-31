@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fefe3f3b9b7e1d34ba525b28e83a5693, type: 3}
-  m_Name: rawBeef - rawBeef Slices
+  m_Script: {fileID: 11500000, guid: d671290f8e19e694f8be44a3ea24fcbf, type: 3}
+  m_Name: Suya cooked - Suya burned
   m_EditorClassIdentifier: 
-  input: {fileID: 11400000, guid: 2418f7dd41b37384e80ef81783fcb383, type: 2}
-  output: {fileID: 11400000, guid: cae7ffe489681aa47b56a4baa25f931b, type: 2}
-  cuttingProgressMax: 5
+  input: {fileID: 11400000, guid: 893a66d211338aa47959845283927979, type: 2}
+  output: {fileID: 11400000, guid: aaf602bec164eeb4581b53a65465cfe0, type: 2}
+  burningTimerMax: 5
