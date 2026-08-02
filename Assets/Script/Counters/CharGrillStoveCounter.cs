@@ -227,7 +227,3 @@ public class CharGrillStoveCounter : BaseCounter, IHasProgress
         return null;
     }
 }
-
-
-
-
